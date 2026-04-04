@@ -19,5 +19,4 @@ make
 
 ## Requirements
 - GCC
-- NASM 
 - Linux x86-64
