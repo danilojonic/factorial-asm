@@ -4,7 +4,7 @@
 .global factorial	# Make 'factorial' visible to the linker (so C can call it)
 
 factorial:
-	enter 0, 0		# Stack frame setup:
+	enter 0, 0     # Stack frame setup:
                 	#   	push rbp
             		#   	mov rbp, rsp
                 	#   	sub rsp, 0 (no local variables)
